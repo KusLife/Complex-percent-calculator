@@ -1,0 +1,23 @@
+// HERE WE SET STARTING POSITIONS
+let wallet = 100;
+let goal = 10000
+let moneyGained = 0;
+let dealsNum = 0;
+const persents = 3;
+
+// Calculations to find how many deels should i make to gain a sum of dollars??
+for (let i = 1; i < 1000; i++) {
+  // Put in 'if' left atribute a sum we wanna achive
+  if (wallet <= goal) {
+    dealsNum = i;
+    console.log(
+      'The number of my deel is: ',
+      dealsNum,
+      `The (${persents}) PERCENT of my sum are:`,
+      moneyGained = wallet / persents,
+      ' In my wallet now: ',
+      wallet = wallet + moneyGained, 
+      ' Deals per day on a month: ', dealsNum / 30, 'or in persents: ',(dealsNum / 30) * persents 
+    );
+  }
+}

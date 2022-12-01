@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Count your persentag</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grid">
+      <!-- Form with basic html tags  -->
+      <fieldset id="complexPercent">
+        <legend>Findout the perspective / complex persentage</legend>
+        <form name="countForm">
+          <div class="wallet">
+            <lable>What is your balance $</lable>
+            <input
+              type="number"
+              name="wallet"
+              id="walletInput"
+              placeholder="Set a sum"
+              maxlength="10"
+              value="100"
+            />
+          </div>
+          <div class="persentage">
+            <lable>Average persentage %</lable>
+            <input
+              type="number"
+              name="persent"
+              id="persentInput"
+              placeholder="10"
+              maxlength="4"
+              value="3"
+            />
+          </div>
+
+          <div class="monts">
+            <lable>Your goal is $</lable>
+            <input
+              type="number"
+              name="goal"
+              id="goalInput"
+              placeholder="1000"
+              maxlength="12"
+              value="10000"
+            />
+          </div>
+
+          <button type="button" id="btnCount">Count</button>
+        </form>
+
+
+        <h2>result is:</h2>
+        <p id="result"></p>
+  
+        <label for="details">Details</label>
+        <select name="details" id="detailsList">
+          <option value="1">$</option>
+        </select>
+  
+      </fieldset>
+
+      
+      <div id="calculator">
+
+        <div id="display">
+          <p class="displayResult"></p>
+        </div>
+
+        <div id="keybord"> 
+
+        </div> 
+
+      </div>
+     
+      <!-- My scripts -->
+      <script src='./script/complextPercent.js'></script>
+      <script src="./script/calculator.js"></script>
+
+    </div>
+  </body>
+</html>

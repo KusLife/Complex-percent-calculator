@@ -1,0 +1,33 @@
+.grid {
+    position: absolute;
+    padding: 10px 15px;
+    
+}
+
+#complexPercent {
+    min-width: 500px;
+    min-height: 250px;
+    padding: 10px 15px;
+    margin-bottom: 10%;
+    border: deepskyblue solid 1px;
+}
+
+#calculator {
+    min-width: 500px;
+    min-height: 250px;
+    padding: 10px 15px;
+    border: rgb(84, 181, 57) solid 1px;
+}
+
+
+/* .wallet {
+    position: absolute;
+    height: 25px;
+    width: 50px;
+    border: lightseagreen dotted 3px;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 40px;
+    font-weight: bold;
+    font-size: large;
+} */
