@@ -40,7 +40,7 @@
    setDataOfIterations();
  };
 
- // Counted data passed to html and clear the 'list' of old data
+ // Counted data passed to html and cleared the 'list' of old data
  const setDataOfIterations = () => {
    resultItems = list.map((iteration) => {
      return `<option value="${iteration.key}"> Cycle: ${iteration.key}, Achived: ${iteration.achivment}$</option>`;
